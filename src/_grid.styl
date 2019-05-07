@@ -1,0 +1,12 @@
+flex()
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+grid(available)
+	if available == true
+		flex()
+	else
+		display: block;

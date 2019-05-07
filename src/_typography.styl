@@ -1,0 +1,17 @@
+text-size(value = 1.4)
+	rem = ''
+	rem += value
+	rem += 'rem'
+	px = ''
+	px += value * 10
+	px += 'px'
+	font-size: px
+	font-size: rem
+
+text-truncate()
+	overflow: hidden
+	text-overflow: ellipsis
+	white-space: nowrap
+
+text-stroke(offset, color)
+	text-shadow: offset 0 color, 0 (offset / 1.5) color, (offset / 2) 0 color, (offset / 2) (offset / 2) color, -(offset / 2) 0 color, 0 -(offset / 1.5) color, -(offset / 1) -(offset / 2) color, -(offset) 0 color

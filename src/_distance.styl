@@ -1,0 +1,13 @@
+padding(props)
+	props = arguments if length(arguments) > 1
+	for prop in props
+		{'padding-' + prop[0]}: prop[1]
+
+// Example: padding(top 2px, right 4px, bottom 5px, left 6px)
+
+margin(props)
+	props = arguments if length(arguments) > 1
+	for prop in props
+		{'margin-' + prop[0]}: prop[1]
+
+// Example: margin(top 2px, right 4px, bottom 5px, left 6px)

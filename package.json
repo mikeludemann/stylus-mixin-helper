@@ -1,0 +1,23 @@
+{
+  "name": "stylus-mixin-helper",
+  "version": "1.0.0",
+  "description": "STYLUS Mixin Helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeludemann/stylus-mixin-helper.git"
+  },
+  "keywords": [
+    "Stylus",
+    "Mixin"
+  ],
+  "author": "Mike Ludemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeludemann/stylus-mixin-helper/issues"
+  },
+  "homepage": "https://github.com/mikeludemann/stylus-mixin-helper#readme"
+}
